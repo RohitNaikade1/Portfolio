@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="100" viewBox="0 0 250 100">
+  <defs>
+    <clipPath id="clip-Rohit">
+      <rect width="250" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="Rohit" clip-path="url(#clip-Rohit)">
+    <rect width="250" height="100" fill="rgba(255,255,255,0)"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(30)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="44.5" cy="44.5" r="44.5" transform="translate(18 6)" fill="#3e64ff"/>
+      <g id="Group_2" data-name="Group 2">
+        <g id="Group_1" data-name="Group 1">
+          <text id="R" transform="translate(44 17)" fill="#fff" font-size="50" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="54">R</tspan></text>
+          <text id="ohit" transform="translate(75 17)" font-size="50" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="54">ohit</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

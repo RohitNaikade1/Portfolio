@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.likedin{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.blue-head,.nav-bg{
+    background-color: #EAEEFF !important;
+}
+.blue-color{
+    color: #3E64FF;
+}
+.black{
+    color: #000 !important;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.navbar{
+    transition: background-color 1s ease-in-out;
+}
+.title-container{
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2 !important;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.h1{
+    font-size: 10vw;
+    color: #000 !important;
+}
+.arrow{
+    margin-top: 65%;
+}
+.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.icon{
+    font-size: 1.8rem;
+}
+.small{
+    font-size: small;
+}
+.smaller{
+    font-size: smaller;
+}
+.hire{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/background/bg_1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.footer{
+    background: #000;
+}
+.error{
+    color: rgba(255, 0, 0, 0.842) !important;
+    font-size: smaller !important;
+}
+.modal-header{
+    border: none !important;
+}
+.over{
+    position: relative;
+    border-radius: 5px !important;
+}
+.over-btn{
+    transition: all 0.6s ease-in-out;
+}
+.over-btn:hover{
+    color: #fff !important;
+    background-color: #3E64FF !important;
+}
+.overlay{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0,0,0.5);
+}
+@media  only screen and (min-width:576px){
+    .h1{
+        font-size: 8vw;
+    }
+    .arrow{
+        margin-top: 40%;
+    }
+    .icon{
+        font-size: 2rem;
+    }
+}
+@media  only screen and (min-width:768px){
+    .h1{
+        font-size: 7vw;
+    }
+    .arrow{
+        margin-top: 30%;
+    }
+}
+@media  only screen and (min-width:992px){
+    .arrow{
+        margin-top: 20%;
+    }
+    .icon{
+        font-size: 2.1rem;
+    }
+}
+@media only screen and (min-width:1200px){
+    .h1{
+        font-size: 6vw;
+    }
+    .arrow{
+        margin-top: 16%;
+    }
+}
